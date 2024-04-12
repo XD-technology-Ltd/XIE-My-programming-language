@@ -1,4 +1,5 @@
 import tkinter
+import time
 from tkinter import filedialog,messagebox
 import requests
 # 选取文件
@@ -38,3 +39,4 @@ for i in xie_t:
             print(requests.get(url).cookies)
         elif type == 'code':
             print(requests.get(url).status_code)
+time.sleep(5)
