@@ -29,3 +29,11 @@ text 文字
 cookie 用户cookie
 code 链接状态码
 ```
+# 2.0beta 更新
+## time 语法
+```xie
+time>>number
+```
+number:停止时间
+## audio模块
+### audio.play 启动服务
